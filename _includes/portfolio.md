@@ -1,4 +1,5 @@
 ---
+layout: default
 slider:
   text_color: white
   shadow_color: black
