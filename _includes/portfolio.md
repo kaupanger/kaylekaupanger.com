@@ -10,7 +10,6 @@ slider:
     - image: /uploads/slider/samuel-zeller-356338.jpg
       slide_html: "<h3>La Passione 2/2</h3>Yes, my life is your dream."
     - image: /uploads/c.png
-      slide_html:
 ---
 
 <!-- Portfolio Section -->
@@ -19,8 +18,8 @@ slider:
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Portfolio</h2>
                 {% if page.slider %}
-  {% include slider.html height="50" unit="%" transition="slide" duration="7" %}
-{% endif %}
+                {% include slider.html height="50" unit="%" transition="slide" duration="7" %}
+                {% endif %}
             </div>
         </div>
     </section>
